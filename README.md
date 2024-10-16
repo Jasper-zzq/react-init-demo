@@ -1,14 +1,51 @@
 # React + TypeScript + Vite  (node:v21.7.3)
 
+| mac | win | Linux |  
+| :--- | :---: | ---: |  
+
+
+- [x] 快速启动 
+
+
+```shell
+npx degit Jasper-zzq/react-init-demo my-new-project
+
+```
+
+
+```shell
+npm i -f  or yarn
+
+```
+
+
 ## husky
 
 - pre-commit 提交自动格式化(ESlintFIX + prettier)
 
 - commit-msg 提交规范 (refactor: README内容填充)
 
+```shell
+npx lint-staged
+
+```
+
 ## tailwind
 
+- css 原子化
+
+
+```js
+  theme: {
+    extend: {}, //可以定义响应式 ps:lg,sm,xl ...
+  },
+
+```
+
 ## vite
+
+- 快速构建你的项目
+  
 
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
